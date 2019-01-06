@@ -83,6 +83,7 @@ define openvpn::client_specific_config(
   $iroute_ipv6      = [],
   $route            = [],
   $ifconfig         = false,
+  $ifconfig_ipv6    = false,
   $dhcp_options     = [],
   $redirect_gateway = false,
 ) {
